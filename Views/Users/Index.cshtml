@@ -1,0 +1,29 @@
+@model List<JeepCity.Models.Domain.User>
+@{
+    ViewData["Title"] = "Users";
+}
+<h1>Users</h1>
+<a asp-controller="Users" asp-action="AddUser" class="btn btn-primary mb-3">Add User</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Subject</th>
+            <th>Feedback</th>
+            <th>Id</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.name</td>
+                <td>@user.email</td>
+                <td>@user.subject</td>
+                <td>@user.feedback</td>
+                <td>@user.Id</td>
+            </tr>
+        }
+    </tbody>
+</table>

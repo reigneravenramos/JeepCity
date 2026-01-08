@@ -1,0 +1,24 @@
+@model JeepCity.Models.ViewModels.AddUserViewModel
+@{
+    ViewData["Title"] = "Add User";
+}
+<h1>Add User</h1>
+<form method="post" asp-action="AddUser" asp-controller="Users">
+    <div class="mb-3">
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="name" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="email" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Subject</label>
+        <input type="text" class="form-control" asp-for="subject" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Feedback</label>
+        <input type="text" class="form-control" asp-for="feedback" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

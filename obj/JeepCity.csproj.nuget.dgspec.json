@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raven\\Downloads\\Main\\Main Presentation\\JeepCity\\JeepCity\\JeepCity.csproj": {}
+    "C:\\Users\\kg\\Desktop\\Vens\\JC\\JeepCity\\JeepCity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raven\\Downloads\\Main\\Main Presentation\\JeepCity\\JeepCity\\JeepCity.csproj": {
+    "C:\\Users\\kg\\Desktop\\Vens\\JC\\JeepCity\\JeepCity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raven\\Downloads\\Main\\Main Presentation\\JeepCity\\JeepCity\\JeepCity.csproj",
+        "projectUniqueName": "C:\\Users\\kg\\Desktop\\Vens\\JC\\JeepCity\\JeepCity.csproj",
         "projectName": "JeepCity",
-        "projectPath": "C:\\Users\\Raven\\Downloads\\Main\\Main Presentation\\JeepCity\\JeepCity\\JeepCity.csproj",
-        "packagesPath": "C:\\Users\\Raven\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raven\\Downloads\\Main\\Main Presentation\\JeepCity\\JeepCity\\obj\\",
+        "projectPath": "C:\\Users\\kg\\Desktop\\Vens\\JC\\JeepCity\\JeepCity.csproj",
+        "packagesPath": "C:\\Users\\kg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kg\\Desktop\\Vens\\JC\\JeepCity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Raven\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kg\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,18 +35,18 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[8.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -70,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.122/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

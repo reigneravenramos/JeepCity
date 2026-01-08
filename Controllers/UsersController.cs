@@ -1,6 +1,7 @@
 ﻿using JeepCity.Data;
 using JeepCity.Models;
 using JeepCity.Models.Domain;
+using JeepCity.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -24,7 +25,7 @@ namespace JeepCity.Controllers
         [HttpPost]
         public async Task<IActionResult> AddUser(AddUserViewModel addUserRequest)
         {
-            var student = new User()
+            var user = new User()
             {
                 Id = Guid.NewGuid(),
                 name = addUserRequest.name,
@@ -33,15 +34,15 @@ namespace JeepCity.Controllers
                 feedback = addUserRequest.feedback
             };
 
-            await jeepCityDbContext.Users.AddAsync(student);
+            await jeepCityDbContext.Users.AddAsync(user);
             await jeepCityDbContext.SaveChangesAsync();
             return RedirectToAction("Index");
         }
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var student = await jeepCityDbContext.Users.ToListAsync();
-            return View(student);
+            var users = await jeepCityDbContext.Users.ToListAsync();
+            return View(users);
         }
 
     }
