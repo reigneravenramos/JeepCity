@@ -2,6 +2,10 @@
 
 JeepCity is an ASP.NET Core MVC web application designed to provide information about Jeepney routes, fare matrices, and gather user feedback in Dagupan City.
 
+To ensure a user-friendly and well-structured experience, the application’s interface and user flow were designed using Figma. The design prototype presents the overall layout, navigation, and interaction flow of the system. Below is the link to view the Figma design and application flow.
+
+🔗 Figma Prototype: https://www.figma.com/design/iSymZq21q0wwKyizPtEzOB/JeepCity-UI?t=OBbMz11q0czX2oa1-0
+
 ## Features
 
 - **Routes Viewing**: Interactive map and list of Jeepney routes in Dagupan.
